@@ -5,9 +5,10 @@
 #post-container{
     display: flex;
     /* grid-template-columns: 1fr 1fr; */
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     background-color: bisque;
+    flex-direction: row;
     /* align-self: center; */
     justify-self: center;
     width: 80%;
@@ -20,6 +21,8 @@
     transform: scale(1.0);
     overflow-y: scroll;
     /* background-color: brown; */
+    max-height: 200px;
+    
 }
 
 #post-container:hover{
@@ -34,11 +37,11 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     overflow-x: hidden;
     /* overflow-y: auto; */
     /* ============ brute force solution for the problem ===========*/
-    width: 1300%;
+    /* width: 1300%; */
 }
 
 .post-pic{
@@ -58,6 +61,7 @@
 #post-teleporter{
     text-decoration: none;
     color: inherit;
+    overflow-y: auto;
 
 }
 

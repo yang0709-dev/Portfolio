@@ -10,6 +10,7 @@ import "./App.css"
 
 export default function App(){
   return (<>
+  <main className='app-content'>
     <BurgerMenu/>
     <Routes>
       <Route path='/' element={<MainPage/>}/>
@@ -19,6 +20,11 @@ export default function App(){
 
       <Route path='/Projects' element={<Projects/>}/>
     </Routes>
-    <Foot/>
+  </main>
+    
+    <footer>
+      <Foot/>
+    </footer>
+    
   </>)
 }

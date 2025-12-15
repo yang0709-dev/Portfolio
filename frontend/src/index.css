@@ -1,3 +1,25 @@
-body{
+
+
+body,html{
     margin: 0;
+    /* width: 100vw; */
+    /* width: calc(100vw + 10px); */
+    /* padding-bottom: 500px;
+    box-sizing: border-box; */
+    overflow: hidden;
+    /* overflow-x: hidden; */
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 3px;
+    background: transparent;
+}
+
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: rgb(173, 173, 155);
+    border: 1px solid rgb(128, 128, 114);
+   
 }

@@ -1,6 +1,6 @@
 #foot-container{
     width: 100vw;
-    height: 100vh;
+    height: 50px;
     position: fixed;
     /* background-color: beige; */
     top: 0;
@@ -8,6 +8,7 @@
     /* visibility: hidden; */
     /* background-color: beige; */
     pointer-events: none;
+    z-index: 1000;
 }
 
 #big-div{

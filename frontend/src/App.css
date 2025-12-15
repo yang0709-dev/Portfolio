@@ -1,20 +1,38 @@
-body{
+body,html,#root{
+    height: 100%;
     margin: 0;
+    padding-bottom: 50px;
     background-color: beige;
+    /* width: 100vw; */
+    /* overflow-x: hidden; */
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
 }
 
 html{
     background-color: beige;
+    overflow-y: auto;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
-  background: rgb(223, 223, 200);
-    border-radius: 5px;
-    border: 1px solid rgb(109, 109, 104);
+footer{
+    height: 80px;
+    flex-shrink: 0;
 }
 
-::-webkit-scrollbar-thumb {
-  
-
+.app-content{
+    overflow-y: auto;
 }
+
+/* ::-webkit-scrollbar{
+    width: 5px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+    background: rgb(173, 173, 155);
+   
+} */
